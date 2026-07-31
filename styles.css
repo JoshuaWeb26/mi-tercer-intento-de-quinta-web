@@ -1,0 +1,71 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212; /* Fondo oscuro opcional para resaltar texto blanco */
+    color: #ffffff;
+    margin: 20px;
+    line-height: 1.6;
+}
+
+/* Encabezados */
+h1 {
+    color: #00ff66; /* Verde eléctrico */
+    font-size: 32px;
+}
+
+h2 {
+    color: #007bff; /* Azul */
+    font-size: 22px;
+}
+
+/* Listas y spans */
+ul {
+    color: #ffffff; /* Blanco */
+}
+
+span {
+    color: #ff0000; /* Rojo */
+    display: block;
+    margin-bottom: 10px;
+}
+
+/* Inputs y Botón */
+input {
+    color: #000000; /* Negro */
+    padding: 8px 12px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    background-color: #ff0000; /* Botón Submit Rojo */
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+/* Enlaces e Imágenes */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 15px 0;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer p {
+    font-size: 20px;
+    color: #ffff00; /* Amarillo */
+    margin-top: 20px;
+}
